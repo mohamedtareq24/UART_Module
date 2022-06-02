@@ -2,8 +2,8 @@
 
 module UART_frame();
 reg Rx;
-wire clk;
-wire [4:0] S ;
+wire clk,finish;
+wire [8:0]  Data	
 initial 
 begin
 Rx =1'b1;
