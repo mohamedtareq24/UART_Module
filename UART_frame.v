@@ -36,6 +36,5 @@ Rx =1'b1;
 
 #10400 Rx = 1'b1; //endbit
 end 
-RX_ALU_TX U1 (S,Rx,clk);
-//UART_RX   U1 (clk,Rx,Data,finish);
+UART_RX   U1 (clk,Rx,Data,finish);
 endmodule 
